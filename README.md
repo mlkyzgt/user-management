@@ -33,8 +33,6 @@ Renault/
 
 ## Demo Video
 
-Demo videosu eklendiğinde aşağıdaki bağlantı güncellenebilir:
-
 [YouTube Demo Videosu](https://youtu.be/h2CiBUruURM)
 
 ## Ekran Görüntüleri
