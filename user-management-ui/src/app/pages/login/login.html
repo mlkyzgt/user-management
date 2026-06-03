@@ -1,0 +1,24 @@
+<div class="login-container">
+  <div class="login-card">
+    <h2>Giriş Yap</h2>
+
+    <!-- Hatalı giriş olursa mesaj burada gösteriliyor. -->
+    <div class="error-box" *ngIf="errorMessage">
+      {{ errorMessage }}
+    </div>
+
+    <!-- Kullanıcı adı ve şifre alanları ngModel ile component'e bağlı. -->
+    <div class="form-group">
+      <label>Kullanıcı adı</label>
+      <input [(ngModel)]="loginData.username" />
+    </div>
+
+    <div class="form-group">
+      <label>Şifre</label>
+      <input [(ngModel)]="loginData.password" type="password" />
+    </div>
+
+    <!-- Butona basınca login isteği gönderiliyor. -->
+    <button type="button" (click)="onLogin()">Giriş Yap</button>
+  </div>
+</div>
